@@ -24,21 +24,6 @@ public class UserController {
         return "index";
     }
 }
-//    @RequestMapping("dologin.html")
-//    public String doLogin(@RequestParam("userCode") String userName,@RequestParam("userPassword") String password) {
-//        User user userService.login (userCode,userPasswoad);
-//        if (user !=null){
-//            session.setAttribute("userCode",userCode);
-//            return "redirect:/user/main";
-//        }else {
-//        return "login";
-//    }
-//    }
-//    @RequestMapping("/main")
-//   public String main(){
-//        return "framr";
-//    }
-//}
 
 
 
